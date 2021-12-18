@@ -126,7 +126,7 @@ const educationInfo = {
     {
       schoolName:
         "Dwarkadas J Sanghvi College of Engineering, affiliated with University of Mumbai",
-      logo: require("./assets/images/DJSCE.jpg"),
+      logo: require("./assets/images/DJSCE.png"),
       subHeader: "Bachelors of Engineering in Computer Engineering",
       duration: "August 2018 - current",
       desc: "Participated in the research of Machine Learning, Bioinformatics, NLP and published 4 papers.",
