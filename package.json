@@ -15,14 +15,14 @@
     "react-headroom": "^3.0.0",
     "react-lottie": "^1.2.3",
     "react-reveal": "^1.2.2",
-    "react-scripts": "^3.4.3",
+    "react-scripts": "^3.4.4",
     "react-twitter-embed": "3.0.3",
     "sass": "^1.32.8"
   },
   "scripts": {
     "predeploy": "npm run build",
-    "start": "node fetch.js && react-scripts start",
-    "build": "node fetch.js && react-scripts build",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
     "deploy": "gh-pages -b master -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
